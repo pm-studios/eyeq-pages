@@ -1,0 +1,93 @@
+.topInfo {
+    width: 930px;
+}
+
+.topInfo .ti-cover {
+    width: 186px;
+    height: 234px;
+	overflow: hidden;
+    float: left;
+}
+
+.topInfo .ti-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+.topInfo .ti-info {
+	width: 720px;
+	height: auto;
+	margin: 21px 0 0 20px;
+	float: left;
+}
+
+.topInfo .ti-info h1 {
+    padding-top: 29px;
+    padding-right: 50px;
+    color: #0f0a28;
+    font-size: 38px;
+    font-weight: 600;
+
+    width: 550px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.topInfo .ti-info p {
+	color: #575368;	
+	font-size: 20px;
+	font-weight: 400;
+
+    width: 550px;
+    height: 40px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.topInfo .ti-info .predict {
+    width: 134px;
+    height: 32px;
+    margin-bottom: 15px;
+
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.topInfo .ti-info .predict .label {
+    width: 90px;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+    background-color: #ffffff;
+
+    color: #fa5050;
+    font-size: 14px;
+    height: 100%;
+}
+
+.topInfo .ti-info .predict .score {
+    width: 44px;
+    height: 100%;
+    border-radius: 0 16px 16px 0;
+    background-color: #fa5050;
+
+    color: #ffffff;    
+    font-size: 15px;
+    height: 100%;
+}
+
+.topInfo .ti-want {
+    width: 186px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: #F1F0F2;
+    text-align: center;
+}
+
+.topInfo .ti-want img {
+    padding-right: 10px;
+}
+

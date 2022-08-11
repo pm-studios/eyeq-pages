@@ -1,0 +1,48 @@
+.pulseCell {
+	width: 310px;
+	height: auto;
+}
+
+.pulseCell-cover {
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.pulseCell-cover img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pulseCell-title {
+	width: 310px;
+	height: auto;
+	margin-top: 8px;
+	
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.pulseCell-desc {
+	width: 100%;
+	height: auto;
+}
+
+.pulseCell a:link {
+	text-decoration: none;
+}
+
+.pulseCell a:visited {
+	text-decoration: none;
+}
+
+.pulseCell a:hover {
+	text-decoration: none;
+}
+
+.pulseCell a:active {
+	text-decoration: none;
+}

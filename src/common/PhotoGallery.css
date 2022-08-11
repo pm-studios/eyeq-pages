@@ -1,0 +1,94 @@
+.photoGallery {
+    width: 980px;
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+.photoGallery .thumbnail {
+    display: inline-block;
+	  margin-right: 5px;
+	  margin-bottom: 5px;
+    overflow: hidden;
+    width: 184px;
+    height: 104px;    
+}
+
+.photoGallery .thumbnail img {
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-color: lightgray;
+}
+
+.component-slider .scroll-left-arrow {
+  margin-left: -5px;
+}
+
+.component-slider .scroll-right-arrow {
+  margin-right: -5px;
+}
+
+
+/* package default styles */
+.component-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.component-slider .slider-container {
+    margin: 0 20px;
+    overflow: hidden;
+  }
+
+  .component-slider .slider-content {
+    display: inline-block;
+    transition: margin-left 0.25s ease-in;
+  }
+
+  .component-slider .caret {
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    color: #797979;
+  }
+
+  .component-slider .caret-right {
+    right: 0;
+  }
+
+  .component-slider .caret-left {
+    left: 0;
+  }
+
+  button:focus { outline:0 !important; }
+  
+  
+/*custom styles*/
+.menu-bar {
+    border: 1px solid gray;
+    width: 100%;
+  }
+  
+  .menu-item {
+    width: 100px;
+    display: inline-block;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .menu-item:hover {
+    background: #656565;
+    color: #ffffff;
+  }
+  

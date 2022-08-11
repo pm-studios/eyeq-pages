@@ -1,0 +1,21 @@
+.share2 {
+	width: 300px;
+	height: auto;
+}
+
+.share2 h2 {
+	margin-bottom: 6px;
+}
+
+.share2 .share-container {
+	width: 100%;
+	border-radius: 8px;
+	background-color: #e7e6e9;
+
+	padding: 14px 0 10px 16px;
+}
+
+.share-container img {
+	margin-right: 12px;
+	cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.ratingCard {
+    width:100%; 
+    height:136px;
+ }
+
+.ratingCard .cover {
+     width: 142px;
+     height: 100%;
+     overflow: hidden;
+     cursor: pointer;
+ }
+
+.ratingCard .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ratingCard .rc-container {
+    width: 598px;
+    height: 100%;
+}
+
+.ratingCard .rc-container .rc-left {
+    padding: 16px 0 16px 16px;
+}
+
+.ratingCard .rc-container .rc-left h1 {
+    padding: 0;
+    width: 400px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.ratingCard .rc-container .rc-left p {
+    padding: 0;
+    width: 400px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.ratingCard .rc-container .rc-left .releaseDate {
+    padding: 2px 0 0 0;
+}
+
+.ratingCard .rc-container .rc-right {
+    padding: 16px 0 16px 32px;
+}
+
+.ratingCard .rc-container .rc-right .predict {
+    width: 134px;
+    height: 32px;
+    margin-bottom: 24px;
+
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.ratingCard .rc-container .rc-right .predict .label {
+    width: 90px;
+    height: 30px;
+    border-radius: 16px 0 0 16px;
+    background-color: #ffffff;
+    border: 1px solid #fa5050;
+
+    color: #fa5050;
+    font-size: 14px;
+}
+
+.ratingCard .rc-container .rc-right .predict .score {
+    width: 44px;
+    height: 100%;
+    border-radius: 0 16px 16px 0;
+    background-color: #fa5050;
+
+    color: #ffffff;    
+    font-size: 15px;
+    height: 100%;
+}
+
+.ratingCard .review {
+    cursor: pointer;
+}
+
+.ratingCard .review p {
+    position: relative;
+    color: #575368;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    top: -38px;
+    left: 56px;
+}
+
+
+.ratingCard .bottomLine {
+    margin-left: 158px; 
+    width: 582px;
+    height: 2px;
+    background-color: #e7e6e9;
+}

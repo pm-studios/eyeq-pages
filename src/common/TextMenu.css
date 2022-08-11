@@ -1,0 +1,9 @@
+.textmenu_item_active {
+	color: #0f0a28;
+	font-weight: 600;
+}
+
+.textmenu_item_deactive {
+	color: #868493;
+	font-weight: 400;
+}

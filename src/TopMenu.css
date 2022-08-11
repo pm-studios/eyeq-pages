@@ -1,0 +1,38 @@
+.topMenu {		
+	width: 100%;
+	height: 70px;	
+	padding-top: 66px;
+	background-color: #ffffff;
+	box-shadow: 0px 6px 6px -6px rgba(0, 0, 0, 0.16);
+}
+
+.topMenu .container {
+	width: 550px;
+	height: 100%;
+	margin: auto;	
+	text-align: left;
+}
+
+.topMenu a:active {
+    color: #868493;
+}
+
+.topMenu .container ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 20px 0;
+	cursor: pointer;
+
+    color: #0f0a28;
+  	font-family: Poppins;
+  	font-size: 20px;
+}
+
+.topMenu .container li {  
+	padding: 0px 13px;
+	float: left;
+}
+
+.topMenu .textmenu_item_deactive {
+	font-weight: 600;
+}

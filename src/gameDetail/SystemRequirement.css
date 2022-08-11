@@ -1,0 +1,14 @@
+.requirement {
+	width: 100%;
+	height: auto;
+}
+
+.requirement h3 {
+	color: #0f0a28;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	margin-bottom: 7px;
+}

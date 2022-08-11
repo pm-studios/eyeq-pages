@@ -1,0 +1,23 @@
+.recommendationFilter {
+    width:230px; 
+    height:100%; 
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.recommendationFilter .container{
+    padding: 16px 20px;
+    text-align: left;
+}
+
+.recommendationFilter .container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px 0;    
+
+    color: #575368;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}

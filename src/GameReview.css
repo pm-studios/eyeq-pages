@@ -1,0 +1,169 @@
+.gameReview {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+}
+
+.gameReview p {
+    color: #575368;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.gameReview .gr-bg {
+    width: 100%;
+    height: 100%;
+}
+  
+.gameReview .gr-container {
+    width: 750px;
+    height: 760px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 8px 8px 8px 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    -webkit-animation: slide-in .4s .0s backwards;
+    animation: slide-in .4s .0s backwards;
+}
+
+@-webkit-keyframes slide-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.gameReview .gr-banner {
+    width: 100%;
+    height: 210px;
+    background-color: #000000;
+}
+
+.gameReview .gr-banner img {
+    width: 100%;
+    height: 100%;    
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.gameReview .gr-cover {
+    width: 166px;
+    height: 210px;
+    overflow: hidden;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 80px 0 0 40px;    
+}
+
+.gameReview .gr-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+.gameReview .gr-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.gameReview .gr-info {
+    width: 500px;
+    height: 150px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 149px 0 0 222px;
+}
+
+.gameReview .gr-info h1 {
+    padding-top: 35px;
+    color: #0f0a28;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 600;
+
+    width: 490px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.gameReview .gr-info p {
+    width: 490px;
+    overflow:hidden; 
+    white-space:nowrap; 
+    text-overflow: ellipsis;
+}
+
+.gameReview .divider {
+    width: 670px;
+    height: 2px;
+    background-color: #e7e6e9;
+    margin: 100px 0 0 40px;
+}
+
+.gameReview .buttons {
+    text-align: center;
+    background-color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    margin: 24px 0 0 410px;
+    height: 52px;
+}
+
+.gameReview .buttons .close {    
+    width: 140px;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    color: #868493;
+}
+
+.gameReview .buttons .submit {
+    width: 156px;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 28px;
+    border: 2px solid #46d7aa;
+    color: #46d7aa;
+}

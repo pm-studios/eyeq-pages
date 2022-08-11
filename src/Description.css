@@ -1,0 +1,11 @@
+.Description {
+    width: 215px; 
+    height: 314px; 
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.Description .Container{
+    padding: 16px 20px;
+    text-align: left;
+}

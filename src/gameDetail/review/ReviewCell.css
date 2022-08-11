@@ -1,0 +1,101 @@
+.reviewCell {
+	width: 100%;
+	height: auto;
+	margin-top: 16px;
+
+	flex-direction: row;
+	display: flex;
+}
+
+.reviewCell img {
+	width: 50px;
+	height: 50px;
+}
+
+.reviewCell .rc-container {
+	width: 874px;
+	height: auto;
+	margin-left: 16px;
+
+	flex-direction: column;
+	display: flex;
+}
+
+.reviewCell .rc-container h1 {
+	color: #0F0A28;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.reviewCell .rc-top {
+	height: 40px;
+}
+
+.reviewCell .rc-top .rc-top-name {
+	float: left;
+	height: 100%;
+}
+
+.reviewCell .rc-top .rc-top-buttons {
+	float: right;
+	height: 100%;
+}
+
+.reviewCell .rc-top .rc-top-buttons img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.reviewCell .rc-content {
+	width: 100%;
+	height: auto;
+	margin-top: 8px;
+	border-radius: 8px;
+	background-color: #e7e6e9;
+}
+
+.reviewCell .rc-content-top {
+	width: auto;
+	height: 26px;
+	padding: 15px 16px 0 16px;
+}
+
+.reviewCell .rc-content-rating {
+	width: auto;
+	height: 100%;
+
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 600;
+	float: left;
+}
+
+.reviewCell .rc-content-rating .icon {
+	width: 20px;
+	height: 20px;
+}
+
+.reviewCell .rc-content-date {
+	width: auto;
+	height: 100%;
+
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	float: right;
+}
+
+.reviewCell .rc-content-bottom {
+	width: auto;
+	height: auto;
+	padding: 8px 16px 16px 16px;
+	
+	color: #575368;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+}

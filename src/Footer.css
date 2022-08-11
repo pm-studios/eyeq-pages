@@ -1,0 +1,21 @@
+.footer {
+    width: 230px;
+    height: 142px;
+    border-radius: 8px;
+    background-color: #ffffff;  
+
+    margin-top: 10px;
+}
+
+.footer img {
+    margin: 16px 0 0 16px;
+}
+
+.footer p {
+    color: #575368;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+
+    padding-left: 16px;
+}

@@ -1,0 +1,14 @@
+.similar {
+	width: 100%;
+	height: auto;
+	margin-top: 40px;
+}
+
+.similar-container {
+	width: 100%;
+	height: auto;
+
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 8px;
+}

@@ -1,0 +1,51 @@
+.mediaVideoCell {
+	width: 228px;
+	height: auto;
+	cursor: pointer;
+	position: relative;
+}
+
+.mediaVideoCell a:link {
+	color: #575368;
+	text-decoration: none;
+}
+  
+.mediaVideoCell a:visited {
+	color: #575368;
+	text-decoration: none;
+}
+  
+.mediaVideoCell a:hover {
+	color: #575368;
+	text-decoration: none;
+}
+  
+.mediaVideoCell a:active {
+	color: #575368;
+	text-decoration: none;
+}
+
+.mediaVideoCell img {
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.mediaVideoCell .mvc-title {
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.mediaVideoCell .mvc-overlay {
+	position: absolute; 
+	top: 35px; 
+	left: 80px;
+}
+
+.mediaVideoCell .mvc-overlay img {
+	width: 71px;
+	height: 49px;
+}

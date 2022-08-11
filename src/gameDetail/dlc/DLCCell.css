@@ -1,0 +1,27 @@
+.dlcCell {
+	width: 230px;
+	height: auto;
+}
+
+.dlcCell-cover {
+	width: 100%;
+	height: 131px;
+	overflow: hidden;
+}
+
+.dlcCell-cover img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dlcCell-title {
+	width: 100%;
+	height: auto;
+	margin-top: 8px;
+	
+	color: #0f0a28;
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: 600;
+}

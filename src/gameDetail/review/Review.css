@@ -1,0 +1,12 @@
+.review {
+	width: 100%;
+	height: auto;
+}
+
+.review .loadmore {
+	color: #1496bc;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+}

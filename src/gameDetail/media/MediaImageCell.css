@@ -1,0 +1,12 @@
+.mediaImageCell {
+	width: 228px;
+	height: auto;
+	cursor: pointer;
+}
+
+.mediaImageCell img {
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+	object-fit: cover;
+}

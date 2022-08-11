@@ -1,0 +1,21 @@
+.buy {
+	width: 320px;
+	height: auto;
+	border-radius: 8px;
+	background-color: #def3f8;
+}
+
+.buy .buyGroup1 img {
+    width: 140px;
+    height: 56px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+.buy .buyGroup2 img {
+    padding-top: 4px;
+    padding-bottom: 24px;
+    width: 288px;
+    height: 56px;
+    cursor: pointer;
+}
