@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/eyeq-pages/precache-manifest.b6f605aea1c22cb9f3f5b40f5c6f28e9.js"
+  "https://https://pm-studios.github.io/eyeq-pages/precache-manifest.3a1c904270deb7c9f175ea6dced0a6ac.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/eyeq-pages/index.html", {
+workbox.routing.registerNavigationRoute("https://https://pm-studios.github.io/eyeq-pages/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
