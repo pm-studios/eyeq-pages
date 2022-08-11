@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/eyeq-pages/precache-manifest.ff7e89478230ce59a8584b0c86829698.js"
+  "/eyeq-pages/precache-manifest.03d2591656ba0f87ea4944d0db19f2cd.js"
 );
 
 workbox.clientsClaim();
