@@ -57,7 +57,7 @@ export class MediaVideoCell extends Component {
         <a href={this.props.data.src} onClick={(e) => this.props.onItemClick(this.props.data, e)}>
           <img src={'https://img.youtube.com/vi/' + this.props.data.src + '/sddefault.jpg'} />
           <div className="mvc-overlay">
-            <img src={'/images/youtube.png'} />
+            <img src={'/eyeq-pages/images/youtube.png'} />
           </div>
           <div className="mvc-title">
             <LinesEllipsis

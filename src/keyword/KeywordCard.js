@@ -85,8 +85,8 @@ export class KeywordCard extends Component {
 						<h1>{item.title}</h1>
 						<p><Moment format='Do MMM, YYYY'>{item.released_at}</Moment> • {item.platforms}</p>
 						<Rating
-							emptySymbol={<img src="images/rate_star_empty.svg" className="icon" alt="" />}
-							fullSymbol={<img src="images/rate_star_full.svg" className="icon" alt="" />}
+							emptySymbol={<img src="/eyeq-pages/images/rate_star_empty.svg" className="icon" alt="" />}
+							fullSymbol={<img src="/eyeq-pages/images/rate_star_full.svg" className="icon" alt="" />}
 							fractions={2}
 							initialRating={item.my_rating? parseFloat(item.my_rating.value) : 0}
 							style={{ ...Rating.style, 'marginLeft': '-3px', 'paddingTop': '7px' }}
@@ -99,7 +99,7 @@ export class KeywordCard extends Component {
               				<div className="score vertical-center">{this.randomPredict}</div>
             			</div>
 						<div className="review" onClick={this.handleOpenComment}>
-							<img src={'/images/button_write_review.svg'} alt='icon' />
+							<img src={'/eyeq-pages/images/button_write_review.svg'} alt='icon' />
 							<p>Review</p>
 						</div>
 					</div>

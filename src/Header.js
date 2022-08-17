@@ -115,21 +115,21 @@ export class Header extends Component {
 			<div className="header">
 				<div className="container">
 					<div className="logo vertical-center">
-						<Link to={'/'}><img src={'/images/playgroundz_logo.svg'} alt='Playgroundz' /></Link>
+						<Link to={'/'}><img src={'/eyeq-pages/images/playgroundz_logo.svg'} alt='Playgroundz' /></Link>
 					</div>
 					<div className="search vertical-center">
-						<img src={'/images/search.svg'} />
+						<img src={'/eyeq-pages/images/search.svg'} />
 						<input type="search" name="search" placeholder="Search" onChange={this.handleChange.bind(this)} onKeyPress={this.handleKeyPress.bind(this)} />
 					</div>
 					<div className="menu horizontal-direction" style={{width: logged ? '160px' : '280px'}}>
 						<div className="service vertical-center" onClick={this.handleOpenServiceMenu} >
-							<img src={'/images/icon_service_menu.svg'} />
+							<img src={'/eyeq-pages/images/icon_service_menu.svg'} />
 						</div>
 						<div className="notification vertical-center">
-							<img src={'/images/icon_notification.svg'} />
+							<img src={'/eyeq-pages/images/icon_notification.svg'} />
 						</div>
 						<div className="signin_ vertical-center" onClick={logged ? this.handleSignout : this.handleOpenSignin} >
-							{logged ? <img src='/images/profile_placeholder.svg' /> : <p>Sign In</p>}
+							{logged ? <img src='/eyeq-pages/images/profile_placeholder.svg' /> : <p>Sign In</p>}
 						</div>
 						{!logged && <div className="signup_" onClick={this.handleOpenSignup} ><p>Get Started</p></div>}
 					</div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Rating from 'react-rating';
 import Moment from 'react-moment';
 import { connect } from "react-redux";
+import { Redirect } from 'react-router-dom'
 
 import GameReview from '../GameReview'
 import { GameCoverImg } from '../GameAPI';
@@ -16,6 +17,7 @@ export class RatingCard extends Component {
 
 		this.state = {
 			visibleReviewWindow: false,
+			redirect: false,
 			review: ''
 		}
 
@@ -66,22 +68,28 @@ export class RatingCard extends Component {
 		<GameReview item={this.props.item} onClose={this.handleCloseComment} onChangeReview={this.handleChangeReview.bind(this)}/>
 	)
 
+	handleClickCard = () => {
+		this.setState({ redirect: true });
+	}
+
 	render() {
+		if (this.state.redirect) {
+			return <Redirect push to={'/game/' + this.props.item.slug}/>;			
+    	}
+
 		const { item } = this.props;
 		return (
 			<div className="ratingCard">			
-				<div className="cover">
-					<a href={'/game/' + this.props.item.slug} target="_self">
-						<GameCoverImg gameData={item} />
-					</a>
+				<div className="cover" onClick={this.handleClickCard}>
+					<GameCoverImg gameData={item} />
 				</div>
 				<div className="rc-container horizontal-direction">
 					<div className="rc-left">
 						<h1>{item.title}</h1>
 						<p><Moment format='Do MMM, YYYY'>{item.released_at}</Moment> • {item.platforms}</p>
 						<Rating
-							emptySymbol={<img src="images/rate_star_empty.svg" className="icon" alt="" />}
-							fullSymbol={<img src="images/rate_star_full.svg" className="icon" alt="" />}
+							emptySymbol={<img src="/eyeq-pages/images/rate_star_empty.svg" className="icon" alt="" />}
+							fullSymbol={<img src="/eyeq-pages/images/rate_star_full.svg" className="icon" alt="" />}
 							fractions={2}
 							initialRating={item.my_rating? parseFloat(item.my_rating.value) : 0}
 							style={{ ...Rating.style, 'marginLeft': '-3px', 'paddingTop': '7px' }}
@@ -94,7 +102,7 @@ export class RatingCard extends Component {
               				<div className="score vertical-center">{this.randomPredict}</div>
             			</div>
 						<div className="review" onClick={this.handleOpenComment}>
-							<img src={'/images/button_write_review.svg'} alt='icon' />
+							<img src={'/eyeq-pages/images/button_write_review.svg'} alt='icon' />
 							<p>Review</p>
 						</div>
 					</div>

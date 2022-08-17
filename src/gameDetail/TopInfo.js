@@ -48,8 +48,8 @@ export class TopInfo extends Component {
               <div className="score vertical-center">{this.randomPredict}</div>
             </div>
             <Rating
-              emptySymbol={<img src="/images/rate_star_empty.svg" className="icon" />}
-              fullSymbol={<img src="/images/rate_star_full.svg" className="icon" />}
+              emptySymbol={<img src="/eyeq-pages/images/rate_star_empty.svg" className="icon" />}
+              fullSymbol={<img src="/eyeq-pages/images/rate_star_full.svg" className="icon" />}
               fractions={2}
               initialRating={this.props.gameData.my_rating? parseFloat(this.props.gameData.my_rating.value) : 0}
               style={{...Rating.style, 'marginLeft': '-3px'}}
@@ -63,7 +63,7 @@ export class TopInfo extends Component {
         </div>
         <div className="margin-t-16">
           <div className="ti-want horizontal-center">
-            <img src="/images/icon_want.svg" />
+            <img src="/eyeq-pages/images/icon_want.svg" />
             <p className="vertical-center">{this.wantCount} wants</p>
           </div>
         </div>

@@ -125,7 +125,7 @@ class StyleButton extends React.Component {
       className += ' RichEditor-activeButton';
     }
 
-    var imgPath = "/images/review_toolbar_" + this.props.label + ".svg";
+    var imgPath = "/eyeq-pages/images/review_toolbar_" + this.props.label + ".svg";
 
     return (      
       <span className={className} onMouseDown={this.onToggle}>

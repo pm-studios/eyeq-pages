@@ -83,8 +83,8 @@ export class GameReview extends Component {
             </div>
             <div className="gr-info" >
               <Rating
-                emptySymbol={<img src="/images/rate_star_empty_sm.svg" className="gr-icon" alt="" />}
-                fullSymbol={<img src="/images/rate_star_full_sm.svg" className="gr-icon" alt="" />}
+                emptySymbol={<img src="/eyeq-pages/images/rate_star_empty_sm.svg" className="gr-icon" alt="" />}
+                fullSymbol={<img src="/eyeq-pages/images/rate_star_full_sm.svg" className="gr-icon" alt="" />}
                 fractions={2}
                 initialRating={item.my_rating? parseFloat(item.my_rating.value) : 0}
                 style={{...Rating.style, 'marginLeft': '-3px'}}

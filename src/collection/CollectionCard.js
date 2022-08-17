@@ -36,7 +36,7 @@ export default class CollectionCard extends Component {
 					<h1>{this.props.title}</h1>
 					<p>{this.props.platforms}</p>
 				</div>
-				<div className="ratingTag vertical-align" style={{backgroundImage: "url('images/rating_tag.svg')"}} >
+				<div className="ratingTag vertical-align" style={{backgroundImage: "url('/eyeq-pages/images/rating_tag.svg')"}} >
 					{parseFloat(this.props.value).toFixed(1)}
 				</div>
 			</div>

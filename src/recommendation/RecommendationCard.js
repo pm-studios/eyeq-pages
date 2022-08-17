@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Moment from 'react-moment';
-
+import { Redirect } from 'react-router-dom'
 import { GameCoverImg, GameBannerImg } from '../GameAPI';
 import './RecommendationCard.css';
 
@@ -9,13 +9,24 @@ export default class RecommendationCard extends Component {
   constructor(props) {
 		super(props)
     
+    this.state = {
+			redirect: false,
+		}
+
     this.randomPredict = (3.5 + Math.random() * (5.0 - 3.5)).toFixed(1);
   }
   
-  render() {
+  handleClickCard = () => {
+		this.setState({ redirect: true });
+	}
+
+	render() {
+		if (this.state.redirect) {
+			return <Redirect push to={'/game/' + this.props.item.slug}/>;			
+    	}
+      
     return (
         <div className="recommendationCard" onClick={this.handleClickCard}>
-          <a href={'/game/' + this.props.item.slug} target="_self">
           <div className="banner" >
             <GameBannerImg gameData={this.props.item} />
           </div>
@@ -39,7 +50,6 @@ export default class RecommendationCard extends Component {
               <p>{this.props.item.categories.replace(",", ", ")}</p>
             </div>
           </div>
-          </a>
         </div>
     )
   }

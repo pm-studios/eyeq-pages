@@ -14,9 +14,9 @@ export class Share extends Component {
       <div className="share2">
         <h2>Share</h2>
         <div className="share-container">
-          <img src="/images/icon_share_facebook.svg" />
-          <img src="/images/icon_share_twitter.svg" />
-          <img src="/images/icon_share_url.svg" />
+          <img src="/eyeq-pages/images/icon_share_facebook.svg" />
+          <img src="/eyeq-pages/images/icon_share_twitter.svg" />
+          <img src="/eyeq-pages/images/icon_share_url.svg" />
         </div>
       </div>
     );

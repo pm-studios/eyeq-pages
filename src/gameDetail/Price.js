@@ -30,11 +30,11 @@ export class Price extends Component {
         <div className="padding-l-16">
           <h2 className="padding-t-16">Buy Now</h2>
           <div className="buyGroup1">
-            <a href={renderWebsite(game.websites, 13)} target="_blank"><img src={'/images/button_store_steam@3x.png'} /></a>
-            <img src={'/images/button_store_ubi@3x.png'} />
+            <a href={renderWebsite(game.websites, 13)} target="_blank"><img src={'/eyeq-pages/images/button_store_steam@3x.png'} /></a>
+            <img src={'/eyeq-pages/images/button_store_ubi@3x.png'} />
           </div>
           <div className="buyGroup2">
-            <img src={'/images/button_store_aki@3x.png'} />
+            <img src={'/eyeq-pages/images/button_store_aki@3x.png'} />
           </div>
         </div>
       </div>

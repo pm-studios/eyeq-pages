@@ -87,7 +87,7 @@ export class GameDetail extends Component {
 
     let kind = rating_ref.split('|')[0];
     let level = parseInt(rating_ref.split('|')[1]);
-    let sImagePath = '/images/';
+    let sImagePath = '/eyeq-pages/images/';
 
     if (kind === 'esrb') {
       sImagePath = `${sImagePath}ESRB_`;
@@ -193,7 +193,7 @@ export class GameDetail extends Component {
               
               <div className="website padding-t-16 horizontal-direction" >
                 <a href={renderWebsite(this.game.websites, 1)} target="_blank" className="vertical-center"> Official Website</a>
-                <a href={renderWebsite(this.game.websites, 1)} target="_blank"><img src={'/images/icon_link.svg'} /></a>
+                <a href={renderWebsite(this.game.websites, 1)} target="_blank"><img src={'/eyeq-pages/images/icon_link.svg'} /></a>
               </div>
 
               <div className="padding-t-16" >

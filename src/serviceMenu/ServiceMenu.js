@@ -14,7 +14,7 @@ class ServiceMenu extends Component {
     switch (name)
     {
       case "eyeq":
-        window.location.assign('https://pm-studios.github.io/playgroundz-pages');
+        window.location.assign('https://pm-studios.github.io/eyeq-pages');
         break;
 
       case "aki":
@@ -58,7 +58,7 @@ class ServiceMenuItem extends Component {
     return (
       <div className={styleName} onClick={this.handleClick}>
         <div className="vertical-center">
-          <img src={'/images/logo_' + this.props.name + '.svg'} alt='icon' />
+          <img src={'/eyeq-pages/images/logo_' + this.props.name + '.svg'} alt='icon' />
         </div>
         <div className="vertical-center padding-l-8">
           <h1>{this.props.title}</h1>

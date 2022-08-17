@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
     <Provider store={store}>
-		<BrowserRouter forceRefresh={true}>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<App />
 		</BrowserRouter>
     </Provider>,

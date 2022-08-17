@@ -14,7 +14,7 @@ export class Overall extends Component {
 
   render() {
     return (
-      <div className="overall4" style={{backgroundImage: 'url(/images/overall_rating.svg)'}}>
+      <div className="overall4" style={{backgroundImage: 'url(/eyeq-pages/images/overall_rating.svg)'}}>
         <div className="overall4-container vertical-center">
           <h2>{this.randomPredict}</h2>
           <h3>{this.reviewCount}</h3>

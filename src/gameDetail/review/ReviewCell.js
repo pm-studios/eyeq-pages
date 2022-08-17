@@ -13,8 +13,8 @@ export class ReviewCell extends Component {
   renderEditControl = () => {
     return (
       <div className="rc-top-buttons">
-        <img src="/images/icon_review_edit.svg"/>
-        <img src="/images/icon_review_delete.svg"/>
+        <img src="/eyeq-pages/images/icon_review_edit.svg"/>
+        <img src="/eyeq-pages/images/icon_review_delete.svg"/>
       </div>
     ); 
   }
@@ -22,7 +22,7 @@ export class ReviewCell extends Component {
   render() {
     return (
       <div className="reviewCell">
-        <img src="/images/placeholder_user.svg"/>
+        <img src="/eyeq-pages/images/placeholder_user.svg"/>
         <div className="rc-container">
           <div className="rc-top">
             <div className="rc-top-name vertical-center">
@@ -35,8 +35,8 @@ export class ReviewCell extends Component {
               <div className="rc-content-rating horizontal-direction">
                 <h1>3.5</h1>
                 <Rating
-							    emptySymbol={<img src="/images/rate_star_empty_sm.svg" className="icon" alt="" />}
-				          fullSymbol={<img src="/images/rate_star_full_sm.svg" className="icon" alt="" />}
+							    emptySymbol={<img src="/eyeq-pages/images/rate_star_empty_sm.svg" className="icon" alt="" />}
+				          fullSymbol={<img src="/eyeq-pages/images/rate_star_full_sm.svg" className="icon" alt="" />}
 			            fractions={2}
 				          initialRating={3}
 		              style={{ ...Rating.style, 'marginLeft': '7px' }}
